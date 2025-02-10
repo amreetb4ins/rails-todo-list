@@ -16,7 +16,7 @@
                 <%= todo.description %>
               </td>
               <td class="px-3 py-4 text-sm font-normal text-left text-red-600 underline bg-white">
-                <%= button_to "Delete", todo_path(todo), method: :delete %>
+                <%= button_to "Done", todo_path(todo), method: :delete %>
               </td>
             </tr>
           <% end %>
